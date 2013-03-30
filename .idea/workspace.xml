@@ -2,33 +2,44 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e46143d6-e016-4013-a0c1-bf8d47de8082" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/images/Copy of parrot.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/images/Thumbs.db" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/images/arrow.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/images/arrow.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/images/bg.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/images/box_title_bg.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/images/calendar_bg.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/images/calendar_icon.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/images/center_box_bg.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/images/clients_icon.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/images/contact_icon.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/images/divider.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/images/footer_bg.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/images/link_more_bg.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/images/link_more_bg_a.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/images/logo.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/images/menu_arrow.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/images/menu_bg.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/images/p1.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/images/p2.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/images/parrot.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/images/top_bg.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/images/top_box.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/sass_stdlib.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/css/style.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/index.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/maps_example.html" afterPath="$PROJECT_DIR$/templates/maps_example.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/annoying/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/annoying/decorators.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/annoying/exceptions.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/annoying/fields.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/annoying/functions.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/annoying/middlewares.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/annoying/templatetags/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/annoying/templatetags/annoying.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/annoying/templatetags/smart_if.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/annoying/utils.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/publicauth/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/publicauth/admin.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/publicauth/backends/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/publicauth/backends/facebook.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/publicauth/backends/google.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/publicauth/backends/oauth.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/publicauth/backends/openid.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/publicauth/backends/vkontakte.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/publicauth/forms.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/publicauth/lang.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/publicauth/models.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/publicauth/settings.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/publicauth/templates/404.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/publicauth/templates/publicauth/extra.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/publicauth/templates/publicauth/facebook-xdreceiver.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/publicauth/templates/publicauth/login.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/publicauth/templates/publicauth/mail/registration.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/publicauth/templates/publicauth/mail/reset_password.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/publicauth/templates/publicauth/vkontakte-xdreceiver.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/publicauth/urls.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/publicauth/utils.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/publicauth/views.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/vita.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/content/views.py" afterPath="$PROJECT_DIR$/content/views.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/settings.py" afterPath="$PROJECT_DIR$/settings.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/urls.py" afterPath="$PROJECT_DIR$/urls.py" />
     </list>
     <ignored path="Poputchik_3.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -48,38 +59,90 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="settings.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/settings.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="80" column="4" selection-start="1893" selection-end="1893" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="11" selection-start="59" selection-end="59" vertical-scroll-proportion="0.0">
+            <state line="4" column="11" selection-start="59" selection-end="59" vertical-scroll-proportion="-2.5">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="base.html" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="views.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/content/views.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="43" column="39" selection-start="1172" selection-end="1172" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="e#0#15#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="__init__.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/annoying/__init__.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="__init__.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/publicauth/__init__.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="settings.py" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/settings.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="55" column="46" selection-start="1352" selection-end="1352" vertical-scroll-proportion="0.70696723">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="urls.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/urls.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="22" column="47" selection-start="755" selection-end="755" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="e#0#60#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="settings_local.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/settings_local.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="base.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/base.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="25" column="85" selection-start="1422" selection-end="1422" vertical-scroll-proportion="0.5">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="style.css" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/staticfiles/css/style.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="279" column="24" selection-start="4914" selection-end="4914" vertical-scroll-proportion="0.0">
-              <folding />
+            <state line="32" column="0" selection-start="1700" selection-end="1700" vertical-scroll-proportion="-10.875">
+              <folding>
+                <marker date="1364679000000" expanded="true" signature="164:2002" placeholder="..." />
+                <marker date="1364679000000" expanded="true" signature="170:374" placeholder="..." />
+                <marker date="1364679000000" expanded="true" signature="385:1994" placeholder="..." />
+                <marker date="1364679000000" expanded="true" signature="419:1953" placeholder="..." />
+                <marker date="1364679000000" expanded="true" signature="557:1911" placeholder="..." />
+                <marker date="1364679000000" expanded="true" signature="591:615" placeholder="..." />
+                <marker date="1364679000000" expanded="true" signature="707:1867" placeholder="..." />
+                <marker date="1364679000000" expanded="true" signature="747:1478" placeholder="..." />
+                <marker date="1364679000000" expanded="true" signature="789:1451" placeholder="..." />
+                <marker date="1364679000000" expanded="true" signature="1523:1800" placeholder="..." />
+                <marker date="1364679000000" expanded="true" signature="1585:1773" placeholder="..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -97,10 +160,12 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/settings.py" />
         <option value="$PROJECT_DIR$/staticfiles/css/style.css" />
-        <option value="$PROJECT_DIR$/templates/index.html" />
+        <option value="$PROJECT_DIR$/content/views.py" />
         <option value="$PROJECT_DIR$/templates/base.html" />
+        <option value="$PROJECT_DIR$/templates/index.html" />
+        <option value="$PROJECT_DIR$/settings.py" />
+        <option value="$PROJECT_DIR$/urls.py" />
       </list>
     </option>
   </component>
@@ -152,20 +217,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Poputchik_3" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Poputchik_3" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="templates" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
       <pane id="Scope" />
@@ -174,20 +225,32 @@
   <component name="PropertiesComponent">
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="options.lastSelected" value="reference.settings.ide.settings.file-colors" />
+    <property name="options.lastSelected" value="com.jetbrains.python.configuration.PythonSdkConfigurable" />
     <property name="recentsLimit" value="5" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/contrib/publicauth" />
+    <property name="restartRequiresConfirmation" value="true" />
     <property name="FullScreen" value="false" />
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
     <property name="dynamic.classpath" value="false" />
   </component>
+  <component name="PyConsoleOptionsProvider">
+    <option name="myPythonConsoleState">
+      <PyConsoleSettings />
+    </option>
+    <option name="myDjangoConsoleState">
+      <PyConsoleSettings />
+    </option>
+  </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/contrib" />
+      <recent name="$PROJECT_DIR$/templates" />
       <recent name="$PROJECT_DIR$/staticfiles" />
       <recent name="$PROJECT_DIR$/staticfiles/css" />
-      <recent name="$PROJECT_DIR$/templates" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/templates" />
     </key>
   </component>
@@ -213,6 +276,24 @@
       <option name="customRunCommand" value="" />
       <method />
     </configuration>
+    <configuration default="true" type="tests" factoryName="Doctests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <module name="Poputchik_3" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <method />
+    </configuration>
     <configuration default="true" type="com.intellij.persistence.run.ConsoleRunConfigurationType" factoryName="Query Language Console">
       <option name="VM_PARAMETERS" value="" />
       <option name="USER_CFG_CLASS" />
@@ -225,20 +306,22 @@
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
-      <option name="SDK_HOME" value="" />
+      <option name="SDK_HOME" value="/System/Library/Frameworks/Python.framework/Versions/2.7/bin/python" />
       <option name="WORKING_DIRECTORY" value="" />
       <option name="IS_MODULE_SDK" value="false" />
       <module name="Poputchik_3" />
       <option name="launchJavascriptDebuger" value="false" />
       <option name="port" value="8000" />
-      <option name="host" value="" />
+      <option name="host" value="0.0.0.0" />
       <option name="additionalOptions" value="" />
       <option name="browserUrl" value="" />
       <option name="runTestServer" value="false" />
       <option name="runNoReload" value="false" />
       <option name="useCustomRunCommand" value="false" />
       <option name="customRunCommand" value="" />
+      <RunnerSettings RunnerId="PyDebugRunner" />
       <RunnerSettings RunnerId="PythonRunner" />
+      <ConfigurationWrapper RunnerId="PyDebugRunner" />
       <ConfigurationWrapper RunnerId="PythonRunner" />
       <method />
     </configuration>
@@ -247,6 +330,24 @@
     </list>
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SvnConfiguration" maxAnnotateRevisions="500" myUseAcceleration="nothing" myAutoUpdateAfterCommit="false" cleanupOnStartRun="false">
+    <option name="USER" value="" />
+    <option name="PASSWORD" value="" />
+    <option name="mySSHConnectionTimeout" value="30000" />
+    <option name="mySSHReadTimeout" value="30000" />
+    <option name="LAST_MERGED_REVISION" />
+    <option name="MERGE_DRY_RUN" value="false" />
+    <option name="MERGE_DIFF_USE_ANCESTRY" value="true" />
+    <option name="UPDATE_LOCK_ON_DEMAND" value="false" />
+    <option name="IGNORE_SPACES_IN_MERGE" value="false" />
+    <option name="DETECT_NESTED_COPIES" value="true" />
+    <option name="CHECK_NESTED_FOR_QUICK_MERGE" value="false" />
+    <option name="IGNORE_SPACES_IN_ANNOTATE" value="true" />
+    <option name="SHOW_MERGE_SOURCES_IN_ANNOTATE" value="true" />
+    <option name="FORCE_UPDATE" value="false" />
+    <option name="IGNORE_EXTERNALS" value="false" />
+    <myIsUseDefaultProxy>false</myIsUseDefaultProxy>
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="e46143d6-e016-4013-a0c1-bf8d47de8082" name="Default" comment="" />
@@ -264,10 +365,10 @@
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.19010043" sideWeight="0.670412" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39950064" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32958803" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32958803" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -331,13 +432,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="80" column="4" selection-start="1893" selection-end="1893" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/templates/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="4" column="11" selection-start="59" selection-end="59" vertical-scroll-proportion="0.0">
@@ -369,30 +463,95 @@
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="80" column="4" selection-start="1893" selection-end="1893" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/staticfiles/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="279" column="24" selection-start="4914" selection-end="4914" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="11" selection-start="59" selection-end="59" vertical-scroll-proportion="0.0">
+        <state line="279" column="24" selection-start="4914" selection-end="4914" vertical-scroll-proportion="0.7647059">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/base.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="85" selection-start="1422" selection-end="1422" vertical-scroll-proportion="0.5">
+        <state line="32" column="0" selection-start="1700" selection-end="1700" vertical-scroll-proportion="-10.875">
+          <folding>
+            <marker date="1364679000000" expanded="true" signature="164:2002" placeholder="..." />
+            <marker date="1364679000000" expanded="true" signature="170:374" placeholder="..." />
+            <marker date="1364679000000" expanded="true" signature="385:1994" placeholder="..." />
+            <marker date="1364679000000" expanded="true" signature="419:1953" placeholder="..." />
+            <marker date="1364679000000" expanded="true" signature="557:1911" placeholder="..." />
+            <marker date="1364679000000" expanded="true" signature="591:615" placeholder="..." />
+            <marker date="1364679000000" expanded="true" signature="707:1867" placeholder="..." />
+            <marker date="1364679000000" expanded="true" signature="747:1478" placeholder="..." />
+            <marker date="1364679000000" expanded="true" signature="789:1451" placeholder="..." />
+            <marker date="1364679000000" expanded="true" signature="1523:1800" placeholder="..." />
+            <marker date="1364679000000" expanded="true" signature="1585:1773" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/vita.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="11" selection-start="59" selection-end="59" vertical-scroll-proportion="-2.5">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/content/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="43" column="39" selection-start="1172" selection-end="1172" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/django/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/annoying/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/publicauth/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/settings_local.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="47" selection-start="755" selection-end="755" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="e#0#60#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="55" column="46" selection-start="1352" selection-end="1352" vertical-scroll-proportion="0.70696723">
           <folding />
         </state>
       </provider>
