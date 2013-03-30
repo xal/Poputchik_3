@@ -1,0 +1,46 @@
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,font,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td {
+margin: 0;
+padding: 0;
+border: 0;
+outline: 0;
+font-size: 100%;
+background: transparent;
+}
+body{ text-align:left; font-family: Arial; font-size:12pt; color:black; background: white; width: 590px;}
+
+table{
+    width: 100%;
+    display: block;
+}
+td {
+    display: block;
+    vertical-align: bottom;
+}
+tr{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.checkbox_row{
+    padding-top: 10px;
+    line-height: 20px;
+    vertical-align: middle;
+}
+.gray{
+    color: #d3d3d3;
+}
+p {
+    padding-top: 7px;
+}
+.loan_black{
+    font-weight: bold;
+    font-size: 16pt;
+    text-align: right;
+}
+#wrapper{
+    width: 100%;
+    margin-top: 20px;
+}
+
+.checkbox{
+
+}
