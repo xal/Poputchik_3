@@ -1,0 +1,78 @@
+{% extends "base.html" %}
+
+{% block css %}
+    <style>
+        #submit{
+            width:150px; height:38px; border:0; cursor: pointer;
+        }
+        .btn{
+            float: left;
+            padding-left: 179px;
+        }
+        .right_form div.error{
+            color: red;
+        }
+    </style>
+{% endblock %}
+
+
+{% block content %}
+    <div class="pagetop"></div>
+    <div class="pagebg">
+        <div id="left">
+            <h2>Welcome<br/>{{ user.first_name }} {{ user.last_name }}</h2>
+            <ul>
+                <li {% if page.slug == 'profile' %}class="active" {% endif %}>
+                    <div class="link">
+                        <a href="{% url account.views.profile %}">Profile Information</a>
+                    </div>
+                </li>
+                <li {% if page.slug == 'history' %}class="active" {% endif %}>
+                    <div class="link">
+                        <a href="{% url account.views.history %}">Order History</a>
+                    </div>
+                </li>
+
+            </ul>
+        </div>
+
+        <div id="right">
+            {% block pagecontent %}
+                <h2>Change profile</h2>
+                {% if state %}
+                    <h3>{{ state }}</h3>
+                {% endif %}
+                <div class="forms">
+                    <div class="right_form">
+                        <form method="POST">
+                            {% csrf_token %}
+                            <div class="label{% if form.email.errors %} error{% endif %}"><label for="id_email">Email:</label></div>
+                            <div class="input">{{ form.email }}</div>
+                            <div class="spacer"></div>
+                            <div class="label{% if form.first_name.errors %} error{% endif %}"><label for="id_first_name">First Name:</label></div>
+                            <div class="input">{{ form.first_name }}</div>
+                            <div class="spacer"></div>
+                            <div class="label{% if form.last_name.errors %} error{% endif %}"><label for="id_last_name">Last Name:</label></div>
+                            <div class="input">{{ form.last_name }}</div>
+                            <div class="spacer"></div>
+                            <div class="label{% if form.phone.errors %} error{% endif %}"><label for="id_phone">Phone</label></div>
+                            <div class="input">{{ form.phone }}</div>
+                            <div class="spacer"></div>
+                            <div class="border"></div>
+                            <div class="label{% if form.address_1.errors %} error{% endif %}"><label for="id_address1">Address1:</label></div>
+                            <div class="input">{{ form.address_1 }}</div>
+                            <div class="spacer"></div>
+                            <div class="label{% if form.address_2.errors %} error{% endif %}"><label for="id_address2">Address2:</label></div>
+                            <div class="input">{{ form.address_2 }}</div>
+                            <div class="spacer"></div>
+                            <div class="btn"><input type="submit" value="APPLY" id="submit"></div>
+
+                        </form>
+                    </div>
+                </div>
+            {% endblock %}
+        </div>
+    </div>
+    <div class="pagebottom"></div>
+
+{% endblock %}

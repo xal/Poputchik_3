@@ -1,0 +1,38 @@
+{% extends "account/profile.html" %}
+
+{% block css %}
+    <style>
+        #history_table{
+            width: 720px;
+            padding-left: 10px;
+        }
+        div#left{
+            min-height: 300px;
+        }
+        #right h2{
+            padding-left: 10px;
+        }
+    </style>
+{% endblock %}
+
+{% block title %}
+    <h2>My Orders</h2>
+{% endblock %}
+
+{% block pagecontent %}
+    <table class="cart_table" id="history_table">
+        <tr class="table_header">
+            <td>Order Number</td>
+            <td>Order Date</td>
+            <td>Status</td>
+        </tr>
+        {% for o in orders %}
+            <tr>
+                <td><a href="{% url cart.views.show_order o.id %}" title="">{{ o.id }}</a></td>
+                <td>{{ o.creation_date }}</td>
+                <td>{{ o.status }}</td>
+            </tr>
+        {% endfor %}
+    </table>
+
+{% endblock %}

@@ -1,0 +1,40 @@
+{% extends "base.html" %}
+
+
+
+{% block content %}
+    <div id="right">
+        {% if state %}
+            <h3 style="color: red; padding-left: 46px;">{{ state }}</h3>
+        {% endif %}
+        <div class="forms">
+            <div class="right_form">
+                <form method="POST" autocomplete="off">
+                    {% csrf_token %}
+                    <div class="label {% if form.username.errors %} error{% endif %}"><label for="id_username">Username*:</label></div>
+                    <div class="input">{{ form.username }}</div>
+                    <div class="spacer"></div>
+                    <div class="label{% if form.email.errors %} error{% endif %}"><label for="id_email">Email*:</label></div>
+                    <div class="input">{{ form.email }}</div>
+                    <div class="spacer"></div>
+                    <div class="label{% if form.password.errors %} error{% endif %}"><label for="id_password">Password*:</label></div>
+                    <div class="input">{{ form.password }}</div>
+                    <div class="spacer"></div>
+                    <div class="label{% if form.password_check.errors %} error{% endif %}"><label for="id_password_check">Password Confirm*:</label></div>
+                    <div class="input">{{ form.password_check }}</div>
+                    <div class="spacer"></div>
+                    <label for="id_is_driver">I am the driver:</label>
+                    {{ form.is_driver }}
+                    <div class="spacer"></div>
+                    <div class="label{% if form.coord_from.errors %} error{% endif %}"><label for="id_coord_from">From*:</label></div>
+                    <div class="input">{{ form.coord_from }}</div>
+                    <div class="spacer"></div>
+                    <div class="label{% if form.coord_to.errors %} error{% endif %}"><label for="id_coord_to">To*:</label></div>
+                    <div class="input">{{ form.coord_to }}</div>
+                    <div class="spacer"></div>
+                    <div class="btn"><input type="submit" value="SIGN UP" id="submit"></div>
+                </form>
+            </div>
+        </div>
+    </div>
+{% endblock %}
