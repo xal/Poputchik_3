@@ -1,0 +1,24 @@
+{
+    "routes": [
+        {
+            "coordinate_start": {
+                "latitude": "50.4225",
+                "longtitude": "30.50583"
+            },
+            "coordinate_finish": {
+                "latitude": "47.987164",
+                "longtitude": "37.784729"
+            }
+        },
+        {
+            "coordinate_start": {
+                "latitude": "48.727209",
+                "longtitude": "30.179443"
+            },
+            "coordinate_finish": {
+                "latitude": "50.805935",
+                "longtitude": "34.804688"
+            }
+        }
+    ]
+}
