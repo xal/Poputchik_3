@@ -1,10 +1,13 @@
 function Coordinate (latitude, longtitude) {
     this.latitude = latitude;
     this.longtitude = longtitude;
+    return this;
 }
 
-function Route (coordinat_start, coordinat_finish) {
-    this.coordinat_start = coordinat_start;
-    this.coordinat_finish = coordinat_finish;
+
+function Route (coordinate_start, coordinate_finish) {
+    this.coordinate_start = coordinate_start;
+    this.coordinate_finish = coordinate_finish;
+    return this;
 }
  

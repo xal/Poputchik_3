@@ -5,10 +5,10 @@
 
     <script type="text/javascript" src="{{ STATIC_URL }}js/jquery-1.9.1.js"></script>
     <script type="text/javascript" src="http://maps.googleapis.com/maps/api/js?sensor=false"></script>
-    <script type="text/javascript" src="{{ STATIC_URL }}js/map.js"></script>
-    <script type="text/javascript" src="{{ STATIC_URL }}js/routes.js"></script>
     <script type="text/javascript" src="{{ STATIC_URL }}js/gmaps.js"></script>
+    <script type="text/javascript" src="{{ STATIC_URL }}js/map.js"></script>
     <script type="text/javascript" src="{{ STATIC_URL }}js/ajax.js"></script>
+    <script type="text/javascript" src="{{ STATIC_URL }}js/entites.js"></script>
 
 
     <script type="text/javascript">
@@ -16,18 +16,45 @@
 
             map_container_id = "map_container";
 
-            map = loadMap(map_container_id);
+            mapClickHandler = function(e) {
 
-            myHandler = function(routes) {
+                if(map.route_state == "starting") {
+                    map.route_state = 'finishing';
+                    map.startLatLng = e.latLng;
+                } else if (map.route_state == "finishing") {
+                    map.route_state = 'starting';
+                    startLatLng = map.startLatLng;
+                    finishLatLng = e.latLng;
+                    startCoordinate = new Coordinate(startLatLng.lat(), startLatLng.lng());
+                    finishCoordinate = new Coordinate(finishLatLng.lat(), finishLatLng.lng());
+
+                    route = new Route(startCoordinate, finishCoordinate);
+                    addRouteOnMap(route);
+                }
+
+
+                console.log(e.latLng);
+
+            };
+
+            map = loadMap(map_container_id, mapClickHandler);
+
+            routesSuccessRetrieveHandler = function(routes) {
                 drawRoutes(map, routes);
             };
 
-            retrieveRoutes(map, myHandler);
+            retrieveRoutes(map, routesSuccessRetrieveHandler);
+
+
+
         }
     </script>
 
 </head>
 <body onload="onBodyLoad()">
+<div id="header">
+    Header
+</div>
 <div id="content">
     <div id="left_content_column">
         Left Column
