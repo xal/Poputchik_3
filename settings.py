@@ -53,6 +53,7 @@ MIDDLEWARE_CLASSES = (
     'django.middleware.csrf.CsrfViewMiddleware',
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
+    'annoying.middlewares.RedirectMiddleware',
 )
 
 TEMPLATE_CONTEXT_PROCESSORS = (
@@ -79,6 +80,7 @@ INSTALLED_APPS = (
     'content',
     'contact',
     'imagekit',
+    'publicauth'
 )
 
 LOGGING = {

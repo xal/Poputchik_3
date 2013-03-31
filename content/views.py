@@ -1,3 +1,4 @@
+import datetime
 from django.http import HttpResponse, HttpResponseRedirect
 from django.template.context import RequestContext, Context
 from django.shortcuts import render_to_response, get_object_or_404
@@ -33,14 +34,14 @@ def index(request):
     testimonials = None
     try:
         page = pick_one(Page.objects.filter(slug='index'))
-        slides = Slider.objects.filter(enabled=True)
-        testimonials = Testimonial.objects.all()
+        a = 1
+        b = 2
+        c = a + b
     except:
         pass
     return {
         'page': page,
-        'slides': slides,
-        'testimonials': testimonials,
+        'a': datetime.datetime.utcnow() ,
     }
 
 @simple('page.html')
