@@ -1,5 +1,42 @@
-{% extends 'base.html' %}
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN"  "http://www.w3.org/TR/html4/strict.dtd">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <link href="{{ STATIC_URL }}css/style.css" rel="stylesheet" type="text/css">
 
-{% block content %}
+    <script type="text/javascript" src="{{ STATIC_URL }}js/jquery-1.9.1.js"></script>
+    <script type="text/javascript" src="http://maps.googleapis.com/maps/api/js?sensor=false"></script>
+    <script type="text/javascript" src="{{ STATIC_URL }}js/map.js"></script>
+    <script type="text/javascript" src="{{ STATIC_URL }}js/routes.js"></script>
+    <script type="text/javascript" src="{{ STATIC_URL }}js/gmaps.js"></script>
+    <script type="text/javascript" src="{{ STATIC_URL }}js/ajax.js"></script>
 
-{% endblock %}
+
+    <script type="text/javascript">
+        function onBodyLoad() {
+
+            map_container_id = "map_container";
+
+            map = loadMap(map_container_id);
+
+            myHandler = function(routes) {
+                drawRoutes(map, routes);
+            };
+
+            retrieveRoutes(map, myHandler);
+        }
+    </script>
+
+</head>
+<body onload="onBodyLoad()">
+<div id="content">
+    <div id="left_content_column">
+        Left Column
+    </div>
+    <div id="center_content_column">
+        <div id="map_container"></div>
+    </div>
+</div>
+<div id="header">
+    footer
+</div>
+</body>

@@ -1,9 +1,12 @@
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml"><head>
-    <meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
-    <title>{{ page.title }}</title>
-    <link rel="stylesheet" type="text/css" href="{{ STATIC_URL }}css/style.css">
-</head>
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+        <title>{{ page.title }}</title>
+        <link rel="stylesheet" type="text/css" href="{{ STATIC_URL }}css/style.css">
+        {% block css %}{% endblock %}
+        {% block js %}{% endblock %}
+    </head>
     <body>
         <div id="main_container">
             <div class="parrot"><img src="{{ STATIC_URL }}images/arrow.jpg" alt="" title=""></div>
@@ -23,12 +26,7 @@
                             <li class="divider"></li>
                             <li><a href="#" class="nav"> clients</a></li>
                             <li class="divider"></li>
-                            {% if user.is_authenticated %}
-                                <li><a href="{% url django.contrib.auth.views.logout  %}" class="nav"> Logout </a></li>
-                            {% else %}
-                                <li><a href="{% url account.views.login_user %}" class="nav"> Login </a></li>
-                                <li><a href="{% url account.views.sign_up %}" class="nav"> Sign Up </a></li>
-                            {% endif %}
+
                         </ul>
                     </div>
                     <div class="middle_box">
@@ -45,3 +43,10 @@
         </div> <!--end of main container-->
     </body>
 </html>
+
+{#{% if user.is_authenticated %}#}
+{#    <li><a href="{% url django.contrib.auth.views.logout  %}" class="nav"> Logout </a></li>#}
+{#{% else %}#}
+{#    <li><a href="{% url account.views.login_user %}" class="nav"> Login </a></li>#}
+{#    <li><a href="{% url account.views.sign_up %}" class="nav"> Sign Up </a></li>#}
+{#{% endif %}#}
